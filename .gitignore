@@ -1,0 +1,42 @@
+# Ignore Drupal's temporary files directory.
+tmp/
+sites/*/files/
+sites/*/private/
+sites/*/settings.php
+
+# Ignore Composer dependencies, vendor directory.
+vendor/
+composer.lock
+
+# Ignore scaffold files created by Composer
+.drush/
+drush/
+.drush-lock
+.autoload.php
+
+# Ignore environment-specific settings.
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore PHPStorm and other IDE config files.
+.idea/
+.vscode/
+
+# Ignore log files and databases.
+*.log
+*.sql
+*.sqlite
+
+# Ignore npm and yarn-related files.
+node_modules/
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Ignore OS generated files.
+.DS_Store
+Thumbs.db
+
+# Ignore any other files you don't want to track.
