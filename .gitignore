@@ -40,3 +40,12 @@ yarn.lock
 Thumbs.db
 
 # Ignore any other files you don't want to track.
+# Ignore everything in sites/default
+sites/default/*
+
+# Except you might want to allow settings.local.php or other important files
+!sites/default/settings.local.php
+
+# Optional: If you want to allow certain other files or directories, add them here
+# Example for allowing private files:
+# !sites/default/private/
